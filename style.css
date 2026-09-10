@@ -1,0 +1,60 @@
+.hero-image img {
+    width: 180px;
+    height: 200px;
+    border-radius: 80%;
+    object-fit:cover ;
+   
+}
+.navbar{
+    background: black;
+    color: white;
+    padding: 20px;
+    
+    
+}
+.logo{
+     cursor: pointer;
+    margin-left: 10%;
+    display: inline;
+}
+
+ul,li{
+
+    display: inline;
+   padding: 10px;
+}
+ul{
+padding-left: 50%;
+}
+.hero-text{
+    text-align: center;
+}
+.ul-iteams{
+    display:block;
+    padding-left: 0;
+    padding: 0;
+       
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.contact input,.contact textarea{
+width: 300%;
+height: 150px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+input,textarea{
+    margin-top: 10px;
+}
+ 
