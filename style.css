@@ -644,12 +644,15 @@ img {
 .project-links {
     display: flex;
     gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: auto;
 }
 
 .project-link {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     padding: 8px 18px;
     border: 1px solid var(--border);
     border-radius: 50px;
@@ -657,18 +660,39 @@ img {
     font-weight: 500;
     color: var(--text-secondary);
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .project-link svg {
     width: 16px;
     height: 16px;
+    flex-shrink: 0;
 }
 
 .project-link:hover {
     border-color: var(--accent);
     color: var(--accent);
     background: rgba(108, 99, 255, 0.1);
+    transform: translateY(-2px);
 }
+
+.project-link-primary {
+    background: var(--gradient-1);
+    border-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+.project-link-primary:hover {
+    background: var(--gradient-1);
+    border-color: transparent;
+    color: #ffffff;
+    box-shadow: 0 6px 20px var(--accent-glow);
+    transform: translateY(-2px);
+    filter: brightness(1.12);
+}
+
 
 /* =============================================
    Education Section
